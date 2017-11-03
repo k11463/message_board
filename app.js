@@ -31,7 +31,7 @@ app.use(webpackHotMiddleware(compiler));
 app.use(bodyParse.json());
 
 var con = mysql.createConnection({
-  host: 'localhost',
+  host: '59.126.12.47',
   user: 'kkk123456',
   password: 'kkk654321',
   database: 'kkk123456'
